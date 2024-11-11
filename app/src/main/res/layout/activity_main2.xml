@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/buttonShowNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tampilkan Notifikasi" />
+
+    <TextView
+        android:id="@+id/likeCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonShowNotification"
+        android:layout_marginTop="16dp"
+        android:text="Like: 0" />
+
+    <TextView
+        android:id="@+id/dislikeCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/likeCountTextView"
+        android:layout_marginTop="8dp"
+        android:text="Dislike: 0" />
+</RelativeLayout>
